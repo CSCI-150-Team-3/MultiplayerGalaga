@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
+<diagram program="umlet" version="14.2">
   <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1008</x>
-      <y>240</y>
+      <x>576</x>
+      <y>216</y>
       <w>168</w>
-      <h>152</h>
+      <h>144</h>
     </coordinates>
     <panel_attributes>Player
 --
@@ -27,10 +27,10 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>456</y>
+      <x>368</x>
+      <y>440</y>
       <w>168</w>
-      <h>152</h>
+      <h>104</h>
     </coordinates>
     <panel_attributes>PlayerController
 --
@@ -47,10 +47,10 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1056</x>
-      <y>456</y>
+      <x>624</x>
+      <y>440</y>
       <w>168</w>
-      <h>152</h>
+      <h>136</h>
     </coordinates>
     <panel_attributes>Spaceship
 --
@@ -70,8 +70,8 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>872</x>
-      <y>696</y>
+      <x>440</x>
+      <y>664</y>
       <w>168</w>
       <h>24</h>
     </coordinates>
@@ -83,8 +83,8 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1104</x>
-      <y>696</y>
+      <x>672</x>
+      <y>664</y>
       <w>168</w>
       <h>24</h>
     </coordinates>
@@ -95,8 +95,8 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1120</x>
-      <y>600</y>
+      <x>688</x>
+      <y>568</y>
       <w>24</w>
       <h>112</h>
     </coordinates>
@@ -106,8 +106,8 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1016</x>
-      <y>600</y>
+      <x>584</x>
+      <y>568</y>
       <w>64</w>
       <h>112</h>
     </coordinates>
@@ -117,8 +117,8 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>952</x>
-      <y>384</y>
+      <x>520</x>
+      <y>352</y>
       <w>120</w>
       <h>328</h>
     </coordinates>
@@ -128,19 +128,19 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>944</x>
-      <y>384</y>
+      <x>512</x>
+      <y>352</y>
       <w>96</w>
-      <h>88</h>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>100.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>100.0;10.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>528</x>
-      <y>456</y>
+      <x>96</x>
+      <y>424</y>
       <w>168</w>
       <h>232</h>
     </coordinates>
@@ -170,8 +170,8 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>688</x>
-      <y>480</y>
+      <x>256</x>
+      <y>448</y>
       <w>128</w>
       <h>56</h>
     </coordinates>
@@ -181,10 +181,10 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>824</x>
-      <y>288</y>
+      <x>392</x>
+      <y>256</y>
       <w>104</w>
-      <h>32</h>
+      <h>24</h>
     </coordinates>
     <panel_attributes>SimpleBullet
 bg=white</panel_attributes>
@@ -193,22 +193,22 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>864</x>
-      <y>312</y>
+      <x>432</x>
+      <y>272</y>
       <w>96</w>
-      <h>160</h>
+      <h>184</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;&gt;&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;
 m1=0..*
 m2=1
 shoots/spawns</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>504</x>
-      <y>200</y>
+      <x>72</x>
+      <y>152</y>
       <w>992</w>
       <h>552</h>
     </coordinates>
@@ -221,10 +221,10 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1312</x>
-      <y>240</y>
+      <x>880</x>
+      <y>224</y>
       <w>168</w>
-      <h>152</h>
+      <h>104</h>
     </coordinates>
     <panel_attributes>OtherEnemies
 --
@@ -242,8 +242,8 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1168</x>
-      <y>304</y>
+      <x>736</x>
+      <y>272</y>
       <w>160</w>
       <h>32</h>
     </coordinates>
@@ -253,19 +253,19 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1264</x>
-      <y>384</y>
+      <x>832</x>
+      <y>320</y>
       <w>152</w>
-      <h>344</h>
+      <h>376</h>
     </coordinates>
     <panel_attributes>damages</panel_attributes>
-    <additional_attributes>10.0;410.0;170.0;410.0;170.0;10.0</additional_attributes>
+    <additional_attributes>10.0;450.0;170.0;450.0;170.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>568</x>
-      <y>272</y>
+      <x>136</x>
+      <y>240</y>
       <w>168</w>
       <h>64</h>
     </coordinates>
@@ -280,8 +280,8 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>728</x>
-      <y>296</y>
+      <x>296</x>
+      <y>264</y>
       <w>112</w>
       <h>24</h>
     </coordinates>
@@ -291,12 +291,12 @@ bg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>864</x>
-      <y>216</y>
+      <x>432</x>
+      <y>184</y>
       <w>464</w>
       <h>96</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;&gt;&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;
 m1=0..*
 m2=1
 shoots/spawns</panel_attributes>
