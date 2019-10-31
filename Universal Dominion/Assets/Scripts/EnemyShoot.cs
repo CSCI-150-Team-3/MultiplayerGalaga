@@ -8,8 +8,12 @@ public class EnemyShoot : MonoBehaviour
 
     public GameObject bulletPrefab;
     public float fireDelay = 0.5f;
-    float cooldownTimer = 0;
+    float cooldownTimer = 0f;
 
+    void Start()
+    {
+        cooldownTimer = fireDelay;
+    }
     // Update is called once per frame
     void Update()
     {

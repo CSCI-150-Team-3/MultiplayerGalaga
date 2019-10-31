@@ -6,6 +6,7 @@ TextureImporter:
     21300002: Enemy_1
     21300004: Player_Projectile
     21300006: Enemy_Projectile
+    21300008: Damage_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -174,6 +175,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1135411ea34f3414dad1f375704a151e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damage_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 112
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117b12806d8f31f4091887a2c6c49dc4
       vertices: []
       indices: 
       edges: []
