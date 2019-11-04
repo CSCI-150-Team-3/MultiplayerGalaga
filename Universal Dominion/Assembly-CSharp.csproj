@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\menuScripts\ScriptedShootingPattern.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\connection.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\Lobby_Player.cs" />
+     <Compile Include="Assets\Scripts\networkingScripts\PlayerMovementNet.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerProjectileAudio.cs" />
      <Compile Include="Assets\Scripts\PlayerShoot.cs" />

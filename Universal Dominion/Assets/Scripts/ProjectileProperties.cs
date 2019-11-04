@@ -17,10 +17,9 @@ public class ProjectileProperties : MonoBehaviour
 
         timer -= Time.deltaTime;
 
-       //if (timer <= 0)
-       // {
-       //     Destroy(gameObject);
-       // }
-       Destroy(gameObject, 3f);
+        if (timer <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

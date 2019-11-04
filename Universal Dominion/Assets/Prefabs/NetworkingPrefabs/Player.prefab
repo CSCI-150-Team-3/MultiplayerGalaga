@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 4345634653737803791}
   - component: {fileID: 7267031552742743246}
   - component: {fileID: 212390810946335760}
+  - component: {fileID: 114926746235185974}
+  - component: {fileID: 114224835334345698}
+  - component: {fileID: 114704377663901712}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -113,3 +116,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &114926746235185974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3299251217372289678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a8cc147892e3d43931f6dd686cdef5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletOffset: {x: 0, y: 0.6, z: 0}
+  bulletPrefab: {fileID: 7108717463349675834, guid: 5d1e0ac99f0cf8046a07c4f5d48032c3,
+    type: 3}
+  fireDelay: 0.25
+--- !u!114 &114224835334345698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3299251217372289678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75693618141e13f49a2678a1a0fdc565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  invulnerabilityPeriod: 0
+--- !u!114 &114704377663901712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3299251217372289678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031105ebb2c532443a2aa552db811ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 5
