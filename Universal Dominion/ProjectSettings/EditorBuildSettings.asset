@@ -14,13 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/Multiplayer_Menu.unity
     guid: ada3753d6a5e57a40aa95a0d76c43e65
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Menus/Settings_Menu.unity
     guid: 6a188b979c766c2439790b4f58a3c346
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/Scenes/gameplay/GameScene.unity
     guid: 73588187135d3e04c9ca070d89b2ee23
+  - enabled: 1
+    path: Assets/Scenes/Menus/MatchMaking_Menu.unity
+    guid: bd9ce3961a6fb39418990121bf367322
+  - enabled: 1
+    path: Assets/Scenes/Menus/Private_Lobby.unity
+    guid: bb2fa4d5820b15e47adb77699d9dfbb5
+  - enabled: 1
+    path: Assets/Scenes/gameplay/multiplayerGameScene.unity
+    guid: 24829457c46d3744cbcfb3f31366c6e2
   m_configObjects: {}

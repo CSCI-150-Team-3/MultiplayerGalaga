@@ -4,33 +4,26 @@ using UnityEngine;
 
 public class EnemyScript_1 : MonoBehaviour
 {
-    public float rotationSpeed = 90f;
-    Transform player;
+    public float maxSpeed = 1f;
+    float shipBoundaryRadius = 0.5f;
 
     // Update is called once per frame
     void Update()
     {
-        if (player == null)
-        {
-            GameObject go = GameObject.Find("Player_Ship");
+        Vector3 posx = transform.position;
+        posx.x += maxSpeed * 0;
+        transform.position = posx;
 
-            if(go != null)
-            {
-                player = go.transform;
-            }
-        }
+        Vector3 posy = transform.position;
+        posy.y -= maxSpeed * Time.deltaTime;
 
-        if (player == null)
-            return;
+        //Restrict player to Screen Boundaries
+        float screenRatio = (float)Screen.width / (float)Screen.height;
+        float heightOrthographic = 5;
+            
+        if (posy.y + shipBoundaryRadius < -heightOrthographic)
+            posy.y = heightOrthographic + shipBoundaryRadius;
 
-        Vector3 dir = player.position - transform.position;
-        dir.Normalize();
-
-        float zAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90;
-
-        Quaternion desiredRotation = Quaternion.Euler(0, 0, zAngle);
-
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, desiredRotation, rotationSpeed * Time.deltaTime);
-
+        transform.position = posy;
     }
 }
