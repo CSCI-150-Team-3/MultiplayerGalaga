@@ -20,7 +20,6 @@ public class ScriptedShootingPattern : MonoBehaviour
 
             Vector3 offset = transform.rotation * bulletOffset;
             Instantiate(bulletPrefab, transform.position + offset, transform.rotation); 
-            //Destroy(bulletPrefab, 3f);  
         }
     }
 }

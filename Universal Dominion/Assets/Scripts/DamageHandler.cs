@@ -16,7 +16,6 @@ public class DamageHandler : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        Debug.Log("Trigger");
         health--;
         invulnerableTimer = invulnerabilityPeriod;
         gameObject.layer = 10;
