@@ -14,6 +14,10 @@ public class DelayStartWaitingRoomController : MonoBehaviourPunCallbacks
     private int multiplayerSceneIndex;
     [SerializeField]
     private int menuSceneIndex;
+    //[SerializeField]
+    //private GameObject delayCancelButton;/// <summary>
+    /// I added this to try an fix cancel button. ----EXPERIMENTAL CODE----
+    /// </summary>
 
     private int playerCount;
     private int roomSize;
@@ -96,11 +100,11 @@ public class DelayStartWaitingRoomController : MonoBehaviourPunCallbacks
     {
         //RPC to sync the countdown timer for people joining after the clock has started counting down
         timerToStartGame = timeIn;
-        notFullRoomTimer = timeIn;
+        notFullGameTimer = timeIn;
 
-        if(timeIn < fullRoomTimer)
+        if(timeIn < fullGameTimer)
         {
-            fullRoomTimer = timeIn;
+            fullGameTimer = timeIn;
         }
     }
 
@@ -126,7 +130,7 @@ public class DelayStartWaitingRoomController : MonoBehaviourPunCallbacks
         //When there is enough players in the room begin the timer
         if (readyToStart)
         {
-            fullRoomTimer -= Time.deltaTime;
+            fullGameTimer -= Time.deltaTime;
             timerToStartGame = fullGameTimer;
         }
         else if (readyToCountDown)
@@ -152,7 +156,7 @@ public class DelayStartWaitingRoomController : MonoBehaviourPunCallbacks
         //resets the countdown timer
         timerToStartGame = maxWaitTime;
         notFullGameTimer = maxWaitTime;
-        fullRoomTimer = maxFullGameWaitTime;
+        fullGameTimer = maxFullGameWaitTime;
     }
     
     void StartGame()
@@ -168,6 +172,7 @@ public class DelayStartWaitingRoomController : MonoBehaviourPunCallbacks
 
     public void DelayCancel()
     {
+        Debug.Log("In DelayCancel()");
         //public function paired to cancel button in waiting room scene
         PhotonNetwork.LeaveRoom();
         SceneManager.LoadScene(menuSceneIndex);
