@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/Hannselthill Camacho/Desktop/SideDevelopment/MultiplayerGalaga/Builds/Universal Dominion.exe
+G:/GithubRepos/MultiplayerGalaga/Builds/Universal Dominion.exe
 SceneListBegin?
 Assets/Scenes/Menus/Main_Menu.unity
 Assets/Scenes/Menus/Tutorial_Menu.unity
@@ -15,7 +15,6 @@ SceneListEnd?
 80d2851602cb4bcb6f559596c5eb955b PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.PlayerListCell
 71bb6a6b6c8f052f948db64c7dd3ca4f PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.PunTeams
 74494c459d8da1b3c2f0349d1d8534aa PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.DocLinkButton
-2cc75e7496f5de8be4d52b3f024467c8 Assembly-CSharp.dll:.QuickStartRoomController
 ab039a385ef4459756519a3fe91dccc6 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.SmoothSyncMovement
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 4f417ca0a3b31b376eb402726c240bde PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.RegionListView
@@ -128,7 +127,6 @@ c656dcc13ae391b68d594cc8f9c590b0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 71bb6a6b6c8f052f948db64c7dd3ca4f PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Hub.ToDemoHubButton
 713c8004da0075513fe918f7c158876a Assembly-CSharp.dll:.menuProjectileProperties
 11df54cb47bd74c537f3c732a94ea97d PhotonUnityNetworking.dll:Photon.Pun.PhotonHandler
-27c9b1d052bdf34c993f9f580c1b6731 Assembly-CSharp.dll:.QuickStartLobbyController
 71bb6a6b6c8f052f948db64c7dd3ca4f PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Procedural.Block
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack

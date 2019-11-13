@@ -21,7 +21,7 @@ public class DelayStartLobbyController : MonoBehaviourPunCallbacks
     {
         delayStartButton.SetActive(false);
         delayCancelButton.SetActive(true);
-        PhotonNetwork.JoinRandomRoom();//first tries to join an existing room
+        PhotonNetwork.JoinRandomRoom(null, 0);//first tries to join an existing room
         Debug.Log("Delay Start Called");
     }
 
