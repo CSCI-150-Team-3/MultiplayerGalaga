@@ -16,15 +16,15 @@ MonoBehaviour:
     AppIdRealtime: 40f3fd77-cea4-4c1f-b630-0a422bde2c4c
     AppIdChat: 
     AppIdVoice: 
-    AppVersion: 
+    AppVersion: 1.0
     UseNameServer: 1
-    FixedRegion: 
+    FixedRegion: us
     Server: 
-    Port: 0
+    Port: 5055
     Protocol: 0
     EnableLobbyStatistics: 0
-    NetworkLogging: 1
-  PunLogging: 0
+    NetworkLogging: 5
+  PunLogging: 2
   EnableSupportLogger: 0
   RunInBackground: 1
   StartInOfflineMode: 0
@@ -36,4 +36,4 @@ MonoBehaviour:
   - RespawnSpaceship
   - RPC_SyncTimer
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
+  ShowSettings: 1

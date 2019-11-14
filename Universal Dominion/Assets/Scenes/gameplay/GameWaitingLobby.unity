@@ -653,7 +653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiplayerSceneIndex: 8
   menuSceneIndex: 6
-  minPlayersToStart: 1
+  minPlayersToStart: 2
   roomCountDisplay: {fileID: 652375531}
   timerToStartDisplay: {fileID: 1273004890}
   maxFullGameWaitTime: 5

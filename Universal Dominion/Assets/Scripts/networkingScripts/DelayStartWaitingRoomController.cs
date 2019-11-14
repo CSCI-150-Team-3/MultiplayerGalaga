@@ -14,10 +14,6 @@ public class DelayStartWaitingRoomController : MonoBehaviourPunCallbacks
     private int multiplayerSceneIndex;
     [SerializeField]
     private int menuSceneIndex;
-    //[SerializeField]
-    //private GameObject delayCancelButton;/// <summary>
-    /// I added this to try an fix cancel button. ----EXPERIMENTAL CODE----
-    /// </summary>
 
     private int playerCount;
     private int roomSize;
