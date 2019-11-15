@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/Hannselthill Camacho/Desktop/SideDevelopment/MultiplayerGalaga/Builds/Universal Dominion.exe
+G:/GithubRepos/MultiplayerGalaga/Builds/Universal Dominion.exe
 SceneListBegin?
 Assets/Scenes/Menus/Main_Menu.unity
 Assets/Scenes/Menus/Tutorial_Menu.unity

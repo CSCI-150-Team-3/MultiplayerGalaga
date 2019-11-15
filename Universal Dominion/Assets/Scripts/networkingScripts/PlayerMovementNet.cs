@@ -1,21 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Networking;
+using Photon.Pun;
+//using UnityEngine.Networking;
 
-public class PlayerMovementNet : NetworkBehaviour
+public class PlayerMovementNet : MonoBehaviour
 {
     public float maxSpeed = 5f;
     float shipBoundaryRadius = 0.5f;
 
+    private PhotonView PV;
+    //private CharacterController myCC;
+
+    void Start()
+    {
+        PV = GetComponent<PhotonView>();
+        //myCC = GetComponent<CharacterController>();
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if(!isLocalPlayer)
-        {
-            return;
-        }
 
+        if(PV.IsMine)
+        {
 
         Vector3 posx = transform.position;
         posx.x += Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
@@ -37,4 +45,7 @@ public class PlayerMovementNet : NetworkBehaviour
 
         transform.position = posx;
     }
+    
+    }
+
 }
