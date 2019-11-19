@@ -2,12 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+using TMPro;
 public class Login : MonoBehaviour
 {
 
-    public InputField UsernameInput;
-    public InputField PasswordInput;
+    public TMP_InputField UsernameInput;
+    public TMP_InputField PasswordInput;
     public Button LoginButton;
 
     //Start is called before the first frame update
