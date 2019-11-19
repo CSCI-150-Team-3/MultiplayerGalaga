@@ -79,6 +79,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 7802184610995987991, guid: be9622e2bacc3de4bb1d06fe09f8c536,
+        type: 3}
+      propertyPath: SoundEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b70216438015134096e7492d1158e4c, type: 3}
     m_RemovedComponents:
     - {fileID: 7119989477775722845, guid: be9622e2bacc3de4bb1d06fe09f8c536, type: 3}
     - {fileID: 7119989477775722842, guid: be9622e2bacc3de4bb1d06fe09f8c536, type: 3}
