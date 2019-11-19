@@ -16,7 +16,7 @@ public class Web : MonoBehaviour
     //Access GetDate.php file in xampp -> htdocs -> UnityBackend
     IEnumerator GetDate()
     {
-        using (UnityWebRequest www = UnityWebRequest.Get("http://localhost/UnityBackend/Getdate.php"))
+        using (UnityWebRequest www = UnityWebRequest.Get("http://10.62.66.121/UnityBackend/Getdate.php"))
         {
             yield return www.Send();
 
@@ -38,7 +38,7 @@ public class Web : MonoBehaviour
     //Access GetUsers.php file in xampp -> htdocs -> UnityBackend
     IEnumerator GetUsers()
     {
-        using (UnityWebRequest www = UnityWebRequest.Get("http://localhost/UnityBackend/GetUsers.php"))
+        using (UnityWebRequest www = UnityWebRequest.Get("http://10.62.66.121/UnityBackend/GetUsers.php"))
         {
             yield return www.Send();
 
@@ -64,7 +64,7 @@ public class Web : MonoBehaviour
         form.AddField("loginUser", username);
         form.AddField("loginPass", password);
 
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/UnityBackend/Login.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://10.62.66.121/UnityBackend/Login.php", form))
         {
             yield return www.SendWebRequest();
 
@@ -86,7 +86,7 @@ public class Web : MonoBehaviour
         form.AddField("loginUser", username);
         form.AddField("loginPass", password);
 
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/UnityBackend/RegisterUser.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://10.62.66.121/UnityBackend/RegisterUser.php", form))
         {
             yield return www.SendWebRequest();
 
