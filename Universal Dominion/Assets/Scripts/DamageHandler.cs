@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class DamageHandler : MonoBehaviour
 {
-    public int health = 1;
+
+    [SerializeField] private Hullbar hullbar;
+    public int health = 3;
+    public float totalhealth = 3f;
+    public float normalizedhealth = 1f;
     public float invulnerabilityPeriod;
     float invulnerableTimer = 0;
     int correctLayer;
@@ -16,8 +20,8 @@ public class DamageHandler : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        Debug.Log("Trigger");
         health--;
+        normalizedhealth = health / totalhealth;
         invulnerableTimer = invulnerabilityPeriod;
         gameObject.layer = 10;
     }

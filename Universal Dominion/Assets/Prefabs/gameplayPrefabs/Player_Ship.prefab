@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 5
+  playerPrefab: {fileID: 5851214274575435612}
 --- !u!114 &5851214274575435601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75693618141e13f49a2678a1a0fdc565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hullbar: {fileID: 0}
   health: 3
+  totalhealth: 3
+  normalizedhealth: 1
   invulnerabilityPeriod: 2
 --- !u!114 &5851214274575435600
 MonoBehaviour:

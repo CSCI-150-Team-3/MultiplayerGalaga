@@ -146,7 +146,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75693618141e13f49a2678a1a0fdc565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hullbar: {fileID: 0}
   health: 1
+  totalhealth: 3
+  normalizedhealth: 1
   invulnerabilityPeriod: 0
 --- !u!114 &114704377663901712
 MonoBehaviour:
