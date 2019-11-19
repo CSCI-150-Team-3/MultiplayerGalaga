@@ -76,11 +76,12 @@
      <Compile Include="Assets\Scripts\menuScripts\menuProjectileProperties.cs" />
      <Compile Include="Assets\Scripts\menuScripts\ScriptedShipBehavior.cs" />
      <Compile Include="Assets\Scripts\menuScripts\ScriptedShootingPattern.cs" />
+     <Compile Include="Assets\Scripts\networkingScripts\DelayStartLobbyController.cs" />
+     <Compile Include="Assets\Scripts\networkingScripts\DelayStartRoomController.cs" />
+     <Compile Include="Assets\Scripts\networkingScripts\DelayStartWaitingRoomController.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\GameSetupController.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\NetworkController.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\PlayerMovementNet.cs" />
-     <Compile Include="Assets\Scripts\networkingScripts\QuickStartLobbyController.cs" />
-     <Compile Include="Assets\Scripts\networkingScripts\QuickStartRoomController.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerDamageHandler.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerProjectileAudio.cs" />
