@@ -10,11 +10,15 @@ public class EnemyShoot : MonoBehaviour
     public float fireDelay = 0.5f;
     float cooldownTimer = 0f;
 
+    public AudioClip SoundEffect;
+    public AudioSource SoundSource;
+
     void Start()
     {
         cooldownTimer = fireDelay;
+        SoundSource.clip = SoundEffect;
     }
-    // Update is called once per frame
+
     void Update()
     {
         cooldownTimer -= Time.deltaTime;
@@ -24,7 +28,9 @@ public class EnemyShoot : MonoBehaviour
             cooldownTimer = fireDelay;
 
             Vector3 offset = transform.rotation * bulletOffset;
-            Instantiate(bulletPrefab, transform.position + offset, transform.rotation);   
+            Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
+
+            SoundSource.Play();
         }
 
     }

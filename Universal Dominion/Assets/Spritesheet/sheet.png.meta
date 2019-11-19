@@ -6,6 +6,8 @@ TextureImporter:
     21300002: Enemy_1
     21300004: Player_Projectile
     21300006: Enemy_Projectile
+    21300008: PlayerInvuln
+    21300010: AsteroidSmall
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -174,6 +176,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1135411ea34f3414dad1f375704a151e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInvuln
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c69b857b4515b449b2d4f47bfac747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidSmall
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 535
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e8b770b98ea0d43ae71b461796f359
       vertices: []
       indices: 
       edges: []
