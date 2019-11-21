@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\DamageHandler.cs" />
     <Compile Include="Assets\Scripts\databaseScripts\Login.cs" />
     <Compile Include="Assets\Scripts\databaseScripts\Main.cs" />
+    <Compile Include="Assets\Scripts\databaseScripts\RegisterUser.cs" />
     <Compile Include="Assets\Scripts\databaseScripts\Web.cs" />
     <Compile Include="Assets\Scripts\EnemyDamageHandler.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement_1.cs" />

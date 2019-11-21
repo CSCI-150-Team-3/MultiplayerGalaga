@@ -654,6 +654,7 @@ GameObject:
   - component: {fileID: 669454071}
   - component: {fileID: 669454070}
   - component: {fileID: 669454074}
+  - component: {fileID: 669454075}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -763,6 +764,21 @@ MonoBehaviour:
   UsernameInput: {fileID: 542431301}
   PasswordInput: {fileID: 816521487}
   LoginButton: {fileID: 279243951}
+--- !u!114 &669454075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669454069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89a14b46d68f9749bdbf6996d7b4c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InputUsername: {fileID: 542431301}
+  InputPassword: {fileID: 816521487}
+  RegisterButton: {fileID: 1013979501}
 --- !u!1 &686499179
 GameObject:
   m_ObjectHideFlags: 0
