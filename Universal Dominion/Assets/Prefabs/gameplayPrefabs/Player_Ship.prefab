@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 5
-  playerPrefab: {fileID: 5851214274575435612}
 --- !u!114 &5851214274575435601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,6 +130,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7108717463349675834, guid: 5d1e0ac99f0cf8046a07c4f5d48032c3,
     type: 3}
   fireDelay: 0.33
+  SoundEffect: {fileID: 8300000, guid: c0f9a22a9a437ac4f9a5cfe92e602f22, type: 3}
+  SoundSource: {fileID: 0}
 --- !u!50 &5851214274575435602
 Rigidbody2D:
   serializedVersion: 4

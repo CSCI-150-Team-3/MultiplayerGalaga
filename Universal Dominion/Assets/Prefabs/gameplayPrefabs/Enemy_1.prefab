@@ -127,7 +127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75693618141e13f49a2678a1a0fdc565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hullbar: {fileID: 0}
   health: 1
+  totalhealth: 3
+  normalizedhealth: 1
   invulnerabilityPeriod: 0
 --- !u!61 &7119989477775722844
 BoxCollider2D:
@@ -167,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10362fea43373f848bb99a4f952c7c1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 90
+  maxSpeed: 1
 --- !u!114 &7119989477775722842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,3 +200,5 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7615595023550994218, guid: f5aa288a6b2ac7c46987c7eae37fcf03,
     type: 3}
   fireDelay: 0.5
+  SoundEffect: {fileID: 8300000, guid: 8b70216438015134096e7492d1158e4c, type: 3}
+  SoundSource: {fileID: 0}

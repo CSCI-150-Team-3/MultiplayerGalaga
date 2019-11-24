@@ -15,6 +15,7 @@ public class DamageHandler : MonoBehaviour
 
     void Start()
     {
+        invulnerableTimer = invulnerabilityPeriod;
         correctLayer = gameObject.layer;
     }
 

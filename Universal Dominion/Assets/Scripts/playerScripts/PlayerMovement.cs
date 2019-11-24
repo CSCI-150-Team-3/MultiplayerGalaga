@@ -8,10 +8,22 @@ public class PlayerMovement : MonoBehaviour  //includes player spawning!!!
     float shipBoundaryRadius = 0.5f;
     bool beginning = true;
     bool forward = true;
+
+    GameObject Wave3Start;
+    GameObject AllRangeStart;
+    bool allRangePrep = false;
+    bool allRangeMode = false;
     
     void Update()
     {
-        if (beginning && forward)
+        Wave3Start = GameObject.Find("PostWave2");
+        AllRangeStart = GameObject.Find("AllRangePrep");
+
+        if (Wave3Start == null && !allRangePrep)
+        {
+            allRangePrep = true;
+        }
+        if (beginning && forward && !allRangePrep)
         {
             Vector3 posx = transform.position;
             posx.x = 0;
@@ -26,7 +38,7 @@ public class PlayerMovement : MonoBehaviour  //includes player spawning!!!
                 forward = false;
             }
         }
-        if (beginning && !forward)
+        if (beginning && !forward && !allRangePrep)
         {
             Vector3 posx = transform.position;
             posx.x = 0;
@@ -43,7 +55,7 @@ public class PlayerMovement : MonoBehaviour  //includes player spawning!!!
                 beginning = false;
             }
         }
-        if (!beginning)
+        if (!beginning && !allRangePrep)
         {
             Vector3 posx = transform.position;
             posx.x += Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
@@ -64,6 +76,70 @@ public class PlayerMovement : MonoBehaviour  //includes player spawning!!!
                 posx.x = -widthOrthographic + shipBoundaryRadius;
 
             transform.position = posx;
+        }
+        if (allRangePrep && !allRangeMode)
+        {
+            Vector3 posx = transform.position;
+            Vector4 posy = transform.position;
+            if(posy.y <= 0)
+            {
+                posy.y += 3 * Time.deltaTime;
+                if(posy.y > 0)
+                {
+                    posy.y = 0;
+                }
+                transform.position = posy;
+            }
+            if(posx.x != 0)
+            {
+                if(posx.x >= 1)
+                {
+                    posx.x -= 3 * Time.deltaTime;
+                }
+                if(posx.x <= -1)
+                {
+                    posx.x += 3 * Time.deltaTime;
+                }
+                if(posx.x > -1.1 && posx.x < 1.1)
+                {
+                    posx.x = 0;
+                }
+                transform.position = posx;
+            }
+            if(posx.x == 0 && posy.y == 0)
+            {
+                allRangeMode = true;
+            }
+     
+        }
+        if (allRangeMode)
+        {
+            Vector3 posx = transform.position;
+            posx.x += Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
+            transform.position = posx;
+
+            Vector4 posy = transform.position;
+            posy.y += Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime;
+            transform.position = posy;
+
+            float screenRatio = (float)Screen.width / (float)Screen.height;
+            float widthOrthographic = Camera.main.orthographicSize * screenRatio;
+
+            if (posx.x + shipBoundaryRadius > widthOrthographic)
+                posx.x = widthOrthographic - shipBoundaryRadius;
+
+            if (posx.x - shipBoundaryRadius < -widthOrthographic)
+                posx.x = -widthOrthographic + shipBoundaryRadius;
+
+            if (posy.y + shipBoundaryRadius > 5)
+                posy.y = 5 - shipBoundaryRadius;
+
+            if (posy.y - shipBoundaryRadius < -4)
+                posy.y = -3 + shipBoundaryRadius;
+
+
+            transform.position = posx;
+            transform.position = posy;
         }
     }
 }
