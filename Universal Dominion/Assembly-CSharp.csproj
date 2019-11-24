@@ -114,6 +114,14 @@
     <Compile Include="Assets\Scripts\Wave3Scripts\Wave3Complete.cs" />
     <Compile Include="Assets\Scripts\Wave3Scripts\Wave3EnemyShoot.cs" />
     <Compile Include="Assets\Scripts\Wave3Scripts\Wave3Movement.cs" />
+    <Compile Include="Assets\Scripts\Wave4Final\BossMovement.cs" />
+    <Compile Include="Assets\Scripts\Wave4Final\BossShootScript.cs" />
+    <Compile Include="Assets\Scripts\Wave4Final\BossTurretMovement.cs" />
+    <Compile Include="Assets\Scripts\Wave4Final\BossTurretScript.cs" />
+    <Compile Include="Assets\Scripts\Wave4Final\BossTurretShoot.cs" />
+    <Compile Include="Assets\Scripts\Wave4Final\VictoryScript.cs" />
+    <Compile Include="Assets\Scripts\Wave4Final\Wave4_TitleScripts.cs" />
+    <Compile Include="Assets\Scripts\Wave4Final\Wave4Complete.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

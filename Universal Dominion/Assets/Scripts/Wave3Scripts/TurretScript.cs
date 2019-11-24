@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class TurretScript : MonoBehaviour
 {
-    bool Spawn = true;
-    public float delayCounter = 4f;
-    public float waveCounter = 6f;
-    bool left = true;
-    GameObject seekTrigger;
     Transform player;
 
     void Update()

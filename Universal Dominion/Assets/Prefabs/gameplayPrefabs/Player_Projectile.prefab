@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 10
-  timer: 1.2
+  timer: 0.85
 --- !u!61 &185344376662116077
 BoxCollider2D:
   m_ObjectHideFlags: 0

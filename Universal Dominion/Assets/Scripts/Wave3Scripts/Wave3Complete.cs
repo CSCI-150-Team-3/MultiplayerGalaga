@@ -5,8 +5,10 @@ using UnityEngine;
 public class Wave3Complete : MonoBehaviour
 {
     GameObject waveTwoAsteroid;
+    GameObject waveThreeAsteroid;
     public GameObject rangeTrigger;
-    float delayCounter = 3;
+    public GameObject endWaveTrigger;
+    float delayCounter = 2;
 
     void Update()
     {
@@ -19,6 +21,11 @@ public class Wave3Complete : MonoBehaviour
             {
                 Destroy(rangeTrigger);
             }
+        }
+        waveThreeAsteroid = GameObject.Find("Large3 (93)");
+        if(waveThreeAsteroid == null)
+        {
+            Destroy(endWaveTrigger);
         }
     }
 }
