@@ -34,6 +34,9 @@ public class BGSoundScript : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-		
+		if(Application.loadedLevel == 4 || Application.loadedLevel == 8)//turn the menu music off when singleplayer or multiplayer scenes are active
+        {
+            Destroy(this.gameObject);
+        }
 	}
 }
