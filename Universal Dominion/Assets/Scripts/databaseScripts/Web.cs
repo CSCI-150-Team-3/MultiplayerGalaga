@@ -7,6 +7,8 @@ public class Web : MonoBehaviour
 {
     void Start()
     {
+        //Debug or Test functions with database
+
         //StartCoroutine(GetDate());
         //StartCoroutine(GetUsers());
         //StartCoroutine(Login("testuser2", "qwert"));
@@ -16,7 +18,7 @@ public class Web : MonoBehaviour
     //Access GetDate.php file in xampp -> htdocs -> UnityBackend
     IEnumerator GetDate()
     {
-        using (UnityWebRequest www = UnityWebRequest.Get("http://localhost/UnityBackend/Getdate.php"))
+        using (UnityWebRequest www = UnityWebRequest.Get("http://joshuafrancisco.servegame.com/Unitybackend/GetDate.php"))
         {
             yield return www.Send();
 
@@ -38,7 +40,7 @@ public class Web : MonoBehaviour
     //Access GetUsers.php file in xampp -> htdocs -> UnityBackend
     IEnumerator GetUsers()
     {
-        using (UnityWebRequest www = UnityWebRequest.Get("http://localhost/UnityBackend/GetUsers.php"))
+        using (UnityWebRequest www = UnityWebRequest.Get("http://joshuafrancisco.servegame.com/Unitybackend/GetUsers.php"))
         {
             yield return www.Send();
 
@@ -64,7 +66,7 @@ public class Web : MonoBehaviour
         form.AddField("loginUser", username);
         form.AddField("loginPass", password);
 
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/UnityBackend/Login.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://joshuafrancisco.servegame.com/Unitybackend/Login.php", form))
         {
             yield return www.SendWebRequest();
 
@@ -86,7 +88,7 @@ public class Web : MonoBehaviour
         form.AddField("loginUser", username);
         form.AddField("loginPass", password);
 
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/UnityBackend/RegisterUser.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://joshuafrancisco.servegame.com/Unitybackend/RegisterUser.php", form))
         {
             yield return www.SendWebRequest();
 
