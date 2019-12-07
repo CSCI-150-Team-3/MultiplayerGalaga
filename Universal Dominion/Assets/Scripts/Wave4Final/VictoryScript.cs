@@ -9,6 +9,7 @@ public class VictoryScript : MonoBehaviour
     GameObject victorySprite;
     GameObject bossWaveEnd;
     bool WaveEnd = true;
+    public GameObject TimeCounterGO;
 
     private void Update()
     {
@@ -20,6 +21,7 @@ public class VictoryScript : MonoBehaviour
 
             if (delaycounter <= 0 && WaveEnd)
             {
+                TimeCounterGO.GetComponent<TimeCounter>().StopTimeCounter(); //stops the timer
                 victorySprite = (GameObject)Instantiate(victoryPrefab, transform.position, Quaternion.identity);
                 delaycounter = 2;
                 WaveEnd = false;

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DamageHandler : MonoBehaviour
 {
-
-    [SerializeField] private Hullbar hullbar;
+    //public GameObject PlayerHull;
+   [SerializeField] private Hullbar hullbar;
     public int health = 3;
     public float totalhealth = 3f;
     public float normalizedhealth = 1f;
@@ -23,6 +23,7 @@ public class DamageHandler : MonoBehaviour
     {
         health--;
         normalizedhealth = health / totalhealth;
+       hullbar.SetHullSize(normalizedhealth);
         invulnerableTimer = invulnerabilityPeriod;
         gameObject.layer = 10;
     }

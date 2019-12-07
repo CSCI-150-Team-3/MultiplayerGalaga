@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3565935278798664529}
   - component: {fileID: 3565935278798664528}
   - component: {fileID: 3565935278798664535}
-  - component: {fileID: 258485083775115230}
+  - component: {fileID: 950322688235326764}
   m_Layer: 8
   m_Name: Player_Ship
   m_TagString: Untagged
@@ -198,7 +198,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &258485083775115230
+--- !u!114 &950322688235326764
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,9 +207,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3565935278798664543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 529fd9fb0c64ac44d91aa3ff4785e797, type: 3}
+  m_Script: {fileID: 11500000, guid: 50d27473154c87344aa4dc46e3a3b0ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  invulnerabilityPeriod: 1
-  blink: {fileID: 3565935278798664535}
+  invulnerabilityPeriod: 0
+  blink: {fileID: 0}

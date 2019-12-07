@@ -6,9 +6,9 @@ public class Hullbar : MonoBehaviour
 {
     // Start is called before the first frame update
     
-        private Transform hullbar;
+        public Transform hullbar;
 
-    private void Start() 
+    public void Start() 
     {
         hullbar = transform.Find("Hullbar");
         //bar.localScale = new Vector3(.4f, 1f);

@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class PlayerDamageHandler : MonoBehaviour
 {
+    [SerializeField] private Hullbar hullbar;
     public int health = 1;
+    public float totalhealth = 3f;
+    public float normalizedhealth = 1f;
     public float invulnerabilityPeriod;
     float invulnerableTimer = 0;
     int correctLayer;
@@ -19,6 +22,8 @@ public class PlayerDamageHandler : MonoBehaviour
     {
         blink.SetFloat("Damage", 1f);
         health--;
+        normalizedhealth = health / totalhealth;
+        hullbar.SetHullSize(normalizedhealth);
         invulnerableTimer = invulnerabilityPeriod;
         gameObject.layer = 10;
     }
