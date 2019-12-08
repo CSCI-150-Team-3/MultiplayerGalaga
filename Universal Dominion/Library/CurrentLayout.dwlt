@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 613, y: 298}
   m_MaxSize: {x: 18008, y: 10024}
   vertical: 0
-  controlID: 2034
+  controlID: 7492
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 102, y: 248}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 2035
+  controlID: 7493
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 279, y: 298}
   m_MaxSize: {x: 4004, y: 8048}
   vertical: 1
-  controlID: 1818
+  controlID: 7511
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -605,9 +605,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 4371}
-      m_SelectedIDs: b21b0000
-      m_LastClickedID: 7090
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: d6fbffff261c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -705,7 +705,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/playerScripts
+    - Assets/Scripts/enemyScripts
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []

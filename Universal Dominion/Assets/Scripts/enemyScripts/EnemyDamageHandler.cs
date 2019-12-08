@@ -7,6 +7,7 @@ public class EnemyDamageHandler : MonoBehaviour
     GameObject scoreUITextGO;
 
     public int health = 1;
+    public int scoremultiplier = 1;
     public float invulnerabilityPeriod;
     float invulnerableTimer = 0;
     int correctLayer;
@@ -41,7 +42,7 @@ public class EnemyDamageHandler : MonoBehaviour
     void Die()
     {
         //add points to score
-        scoreUITextGO.GetComponent<GameScore>().Score += 100;
+        scoreUITextGO.GetComponent<GameScore>().Score += (scoremultiplier * 100);
         Destroy(gameObject);
     }
 }
