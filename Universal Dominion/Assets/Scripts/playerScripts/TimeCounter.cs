@@ -18,9 +18,7 @@ public class TimeCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         startCounter = false;
-
         timeUI = GetComponent<Text>();
     }
 
