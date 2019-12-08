@@ -210,6 +210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50d27473154c87344aa4dc46e3a3b0ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hullbar: {fileID: 0}
   health: 3
-  invulnerabilityPeriod: 0
+  totalhealth: 3
+  normalizedhealth: 1
+  invulnerabilityPeriod: 2
   blink: {fileID: 0}

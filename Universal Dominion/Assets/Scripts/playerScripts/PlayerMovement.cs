@@ -139,7 +139,7 @@ public class PlayerMovement : MonoBehaviour  //includes player spawning!!!
                 posy.y = 5 - shipBoundaryRadius;
 
             if (posy.y - shipBoundaryRadius < -4)
-                posy.y = -3 + shipBoundaryRadius;
+                posy.y = -4 + shipBoundaryRadius;
 
 
             transform.position = posx;
