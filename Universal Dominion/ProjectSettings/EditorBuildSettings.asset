@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/MatchMaking_Menu.unity
     guid: bd9ce3961a6fb39418990121bf367322
   - enabled: 1
-    path: Assets/Scenes/Menus/Private_Lobby.unity
+    path: Assets/Scenes/Menus/Find_A_Match.unity
     guid: bb2fa4d5820b15e47adb77699d9dfbb5
   - enabled: 1
     path: Assets/Scenes/gameplay/GameWaitingLobby.unity
