@@ -701,8 +701,6 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
-    <Compile Include="Assets\Scripts\DamageHandler.cs" />
     <Compile Include="Assets\Scripts\databaseScripts\Login.cs" />
     <Compile Include="Assets\Scripts\databaseScripts\Main.cs" />
     <Compile Include="Assets\Scripts\databaseScripts\Web.cs" />
@@ -710,7 +708,6 @@
     <Compile Include="Assets\Scripts\enemyScripts\EnemyMovement_1.cs" />
     <Compile Include="Assets\Scripts\enemyScripts\EnemyScript_1.cs" />
     <Compile Include="Assets\Scripts\enemyScripts\EnemyShoot.cs" />
-    <Compile Include="Assets\Scripts\Hullbar.cs" />
     <Compile Include="Assets\Scripts\menuScripts\BGSoundScript.cs" />
     <Compile Include="Assets\Scripts\menuScripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\menuScripts\menuProjectileProperties.cs" />
@@ -727,8 +724,25 @@
     <Compile Include="Assets\Scripts\playerScripts\PlayerProjectileAudio.cs" />
     <Compile Include="Assets\Scripts\playerScripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\playerScripts\PlayerSpawner.cs" />
-    <Compile Include="Assets\Scripts\ProjectileProperties.cs" />
-    <Compile Include="Assets\Scripts\ScrollBackground.cs" />
+    <Compile Include="Assets\Scripts\UI\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Scripts\UI\ApplicationManager.cs" />
+    <Compile Include="Assets\Scripts\UI\AsyncLoadScene.cs" />
+    <Compile Include="Assets\Scripts\UI\BackgroundMusic.cs" />
+    <Compile Include="Assets\Scripts\UI\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\UI\Control_sound.cs" />
+    <Compile Include="Assets\Scripts\UI\DamageHandler.cs" />
+    <Compile Include="Assets\Scripts\UI\DragMe.cs" />
+    <Compile Include="Assets\Scripts\UI\DragPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\DropMe.cs" />
+    <Compile Include="Assets\Scripts\UI\Hullbar.cs" />
+    <Compile Include="Assets\Scripts\UI\OnProgress.cs" />
+    <Compile Include="Assets\Scripts\UI\PanelManager.cs" />
+    <Compile Include="Assets\Scripts\UI\ProjectileProperties.cs" />
+    <Compile Include="Assets\Scripts\UI\ResizePanel.cs" />
+    <Compile Include="Assets\Scripts\UI\ScrollBackground.cs" />
+    <Compile Include="Assets\Scripts\UI\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Scripts\UI\ShowSliderValue.cs" />
+    <Compile Include="Assets\Scripts\UI\TiltWindow.cs" />
     <Compile Include="Assets\Scripts\Wave1Scripts\FrontEnemyScript.cs" />
     <Compile Include="Assets\Scripts\Wave1Scripts\OpeningScene.cs" />
     <Compile Include="Assets\Scripts\Wave1Scripts\PostWave1Complete.cs" />
@@ -773,6 +787,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\Photon\PhotonRealtime\Code\changes-realtime.txt" />
@@ -803,6 +819,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
