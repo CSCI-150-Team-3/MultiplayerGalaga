@@ -1570,7 +1570,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 622408913}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b15c0a3a7600e4449753a27eb49909e, type: 3}
+  m_Script: {fileID: 11500000, guid: 87eba2e12cf6e5e4bb568b7623dc1dbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SoundEffect: {fileID: 8300000, guid: 89d0193a736b92c4fa6b81e396c7f3b1, type: 3}
