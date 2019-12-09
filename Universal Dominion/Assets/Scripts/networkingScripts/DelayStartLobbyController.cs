@@ -8,8 +8,8 @@ public class DelayStartLobbyController : MonoBehaviourPunCallbacks
 {
     [SerializeField]
     private GameObject delayStartButton;//button used for creating and joining a game
-    [SerializeField]
-    private GameObject delayCancelButton;//button used to stop searching for a game to join.
+    //[SerializeField]
+    //private GameObject delayCancelButton;//button used to stop searching for a game to join.
     [SerializeField]
     private int RoomSize = 2; //Manually set the number of players allowed in a room at once
 
@@ -22,7 +22,7 @@ public class DelayStartLobbyController : MonoBehaviourPunCallbacks
     public void DelayStart()//paired to delay start button
     {
         delayStartButton.SetActive(false);
-        delayCancelButton.SetActive(true);
+        //delayCancelButton.SetActive(true);
 
         PhotonNetwork.AuthValues = new Photon.Realtime.AuthenticationValues("Player" + Random.Range(0, 100));
         PhotonNetwork.LocalPlayer.NickName = "Player" + Random.Range(0, 1000000);
@@ -60,7 +60,7 @@ public class DelayStartLobbyController : MonoBehaviourPunCallbacks
 
     public void QuickCancel()//paired with the cancel button to stop looking for a room
     {
-        delayCancelButton.SetActive(false);
+        //delayCancelButton.SetActive(false);
         delayStartButton.SetActive(true);
         PhotonNetwork.LeaveRoom();//leave the room
     }

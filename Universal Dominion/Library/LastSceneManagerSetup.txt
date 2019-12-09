@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Menus/CreateAccountPage.unity
+- path: Assets/Scenes/Menus/Find_A_Match.unity
   isLoaded: 1
   isActive: 1

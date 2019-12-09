@@ -29,7 +29,7 @@ public class AsyncLoadScene : MonoBehaviour
 
     IEnumerator AsyncLoading()
     {
-        operation = SceneManager.LoadSceneAsync(Globe.nextSceneName);
+        operation = SceneManager.LoadSceneAsync(5);
         //阻止当加载完成自动切换
         operation.allowSceneActivation = false;
 
@@ -55,7 +55,6 @@ public class AsyncLoadScene : MonoBehaviour
         {
             operation.allowSceneActivation = true;//启用自动加载场景  
             loadingText.text = "OK";//文本显示完成OK  
-
         }
     }
 }
