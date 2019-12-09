@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 7
-  timer: 3
+  timer: 1.2
 --- !u!61 &185344376662116077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -156,5 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75693618141e13f49a2678a1a0fdc565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hullbar: {fileID: 0}
   health: 1
+  totalhealth: 3
+  normalizedhealth: 1
   invulnerabilityPeriod: 0

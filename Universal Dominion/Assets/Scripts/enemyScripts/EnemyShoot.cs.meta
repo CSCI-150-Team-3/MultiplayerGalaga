@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d824d291f5d1b8949b3016174905b284
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bulletPrefab: {instanceID: 0}
+  - SoundEffect: {fileID: 8300000, guid: 8b70216438015134096e7492d1158e4c, type: 3}
+  - SoundSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
