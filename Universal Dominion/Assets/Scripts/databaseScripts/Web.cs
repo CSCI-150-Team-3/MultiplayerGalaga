@@ -38,7 +38,7 @@ public class Web : MonoBehaviour
     }
 
     //Access GetUsers.php file in xampp -> htdocs -> UnityBackend
-    IEnumerator GetUsers()
+    public IEnumerator GetUsers()
     {
         using (UnityWebRequest www = UnityWebRequest.Get("http://joshuafrancisco.servegame.com/Unitybackend/GetUsers.php"))
         {
@@ -82,11 +82,12 @@ public class Web : MonoBehaviour
     }
 
     //Access RegisterUser.php file in xampp -> htdocs -> UnityBackend
-    public IEnumerator RegisterUser(string username, string password)
+    public IEnumerator RegisterUser(string username, string password, string email)
     {
         WWWForm form = new WWWForm();
         form.AddField("loginUser", username);
         form.AddField("loginPass", password);
+        form.AddField("email", email);
 
         using (UnityWebRequest www = UnityWebRequest.Post("http://joshuafrancisco.servegame.com/Unitybackend/RegisterUser.php", form))
         {
