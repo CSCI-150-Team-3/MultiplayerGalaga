@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3603837876836566110}
   - component: {fileID: 1518309064967151491}
   - component: {fileID: 8434885463032566440}
-  - component: {fileID: 310219505471797938}
   - component: {fileID: 2510843601863910610}
-  - component: {fileID: 2193214899436027202}
+  - component: {fileID: 3518422470851332550}
+  - component: {fileID: 2266929630295118581}
   m_Layer: 12
   m_Name: Enemy_Projectile
   m_TagString: Untagged
@@ -104,20 +104,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &310219505471797938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7615595023550994218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcfde0bfa32e6d4cb75cc2855074eb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxSpeed: 7
-  timer: 3
 --- !u!61 &2510843601863910610
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,7 +130,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.11, y: 0.37}
   m_EdgeRadius: 0
---- !u!114 &2193214899436027202
+--- !u!114 &3518422470851332550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7615595023550994218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcfde0bfa32e6d4cb75cc2855074eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 7
+  timer: 3
+--- !u!114 &2266929630295118581
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,5 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75693618141e13f49a2678a1a0fdc565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hullbar: {fileID: 0}
   health: 1
+  totalhealth: 3
+  normalizedhealth: 1
   invulnerabilityPeriod: 0

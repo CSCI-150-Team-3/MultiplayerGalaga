@@ -6,22 +6,25 @@ public class PlayerShoot : MonoBehaviour
 {
     public Vector3 bulletOffset = new Vector3(0, 0.6f, 0);
 
+    GameObject startPlayer;
     public GameObject bulletPrefab;
     public float fireDelay = 0.25f;
     float cooldownTimer = 0;
 
-    // Update is called once per frame
     void Update()
     {
+        startPlayer = GameObject.Find("Opening");
         cooldownTimer -= Time.deltaTime;
-        
-        if (Input.GetButton("Fire1") && cooldownTimer <= 0)
-        {
-            cooldownTimer = fireDelay;
 
-            Vector3 offset = transform.rotation * bulletOffset;
-            Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
-        }     
-       
+        if (startPlayer == null)
+        {
+            if (Input.GetButton("Fire1") && cooldownTimer <= 0)
+            {
+                cooldownTimer = fireDelay;
+
+                Vector3 offset = transform.rotation * bulletOffset;
+                Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
+            }
+        }
     }
 }

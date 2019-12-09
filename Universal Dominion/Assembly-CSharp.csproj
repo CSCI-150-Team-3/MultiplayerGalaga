@@ -64,6 +64,8 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
      <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+     <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
+     <Compile Include="Assets\Scripts\DamageHandler.cs" />
      <Compile Include="Assets\Scripts\databaseScripts\Login.cs" />
      <Compile Include="Assets\Scripts\databaseScripts\Main.cs" />
      <Compile Include="Assets\Scripts\databaseScripts\RegisterUser.cs" />
@@ -72,6 +74,7 @@
      <Compile Include="Assets\Scripts\enemyScripts\EnemyMovement_1.cs" />
      <Compile Include="Assets\Scripts\enemyScripts\EnemyScript_1.cs" />
      <Compile Include="Assets\Scripts\enemyScripts\EnemyShoot.cs" />
+     <Compile Include="Assets\Scripts\Hullbar.cs" />
      <Compile Include="Assets\Scripts\menuScripts\BGSoundScript.cs" />
      <Compile Include="Assets\Scripts\menuScripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\menuScripts\menuProjectileProperties.cs" />
@@ -83,30 +86,30 @@
      <Compile Include="Assets\Scripts\networkingScripts\GameSetupController.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\NetworkController.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\PlayerMovementNet.cs" />
+     <Compile Include="Assets\Scripts\playerScripts\GameScore.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerDamageHandler.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerProjectileAudio.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerShoot.cs" />
+     <Compile Include="Assets\Scripts\playerScripts\PlayerShootAudio.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerSpawner.cs" />
+     <Compile Include="Assets\Scripts\playerScripts\TimeCounter.cs" />
+     <Compile Include="Assets\Scripts\ProjectileProperties.cs" />
+     <Compile Include="Assets\Scripts\ScrollBackground.cs" />
      <Compile Include="Assets\Scripts\UI\ActiveStateToggler.cs" />
      <Compile Include="Assets\Scripts\UI\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\UI\AsyncLoadScene.cs" />
      <Compile Include="Assets\Scripts\UI\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\UI\Control_sound.cs" />
-     <Compile Include="Assets\Scripts\UI\DamageHandler.cs" />
      <Compile Include="Assets\Scripts\UI\DragMe.cs" />
      <Compile Include="Assets\Scripts\UI\DragPanel.cs" />
      <Compile Include="Assets\Scripts\UI\DropMe.cs" />
-     <Compile Include="Assets\Scripts\UI\Hullbar.cs" />
      <Compile Include="Assets\Scripts\UI\OnProgress.cs" />
      <Compile Include="Assets\Scripts\UI\PanelManager.cs" />
-     <Compile Include="Assets\Scripts\UI\ProjectileProperties.cs" />
      <Compile Include="Assets\Scripts\UI\ResizePanel.cs" />
-     <Compile Include="Assets\Scripts\UI\ScrollBackground.cs" />
      <Compile Include="Assets\Scripts\UI\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Scripts\UI\ShowSliderValue.cs" />
      <Compile Include="Assets\Scripts\UI\TiltWindow.cs" />
-     <Compile Include="Assets\Scripts\Wave1Scripts\BackgroundMusic.cs" />
      <Compile Include="Assets\Scripts\Wave1Scripts\FrontEnemyScript.cs" />
      <Compile Include="Assets\Scripts\Wave1Scripts\OpeningScene.cs" />
      <Compile Include="Assets\Scripts\Wave1Scripts\PostWave1Complete.cs" />
@@ -116,6 +119,25 @@
      <Compile Include="Assets\Scripts\Wave1Scripts\ThirdEnemyScript.cs" />
      <Compile Include="Assets\Scripts\Wave1Scripts\Wave1_TitleScripts.cs" />
      <Compile Include="Assets\Scripts\Wave1Scripts\Wave1Complete.cs" />
+     <Compile Include="Assets\Scripts\Wave2Scripts\BottomEnemyScript.cs" />
+     <Compile Include="Assets\Scripts\Wave2Scripts\medAsteroidScript.cs" />
+     <Compile Include="Assets\Scripts\Wave2Scripts\TopEnemyScript.cs" />
+     <Compile Include="Assets\Scripts\Wave2Scripts\Wave2_TitleScripts.cs" />
+     <Compile Include="Assets\Scripts\Wave2Scripts\Wave2Complete.cs" />
+     <Compile Include="Assets\Scripts\Wave2Scripts\Wave2EnemyShoot.cs" />
+     <Compile Include="Assets\Scripts\Wave3Scripts\TurretScript.cs" />
+     <Compile Include="Assets\Scripts\Wave3Scripts\Wave3_TitleScripts.cs" />
+     <Compile Include="Assets\Scripts\Wave3Scripts\Wave3Complete.cs" />
+     <Compile Include="Assets\Scripts\Wave3Scripts\Wave3EnemyShoot.cs" />
+     <Compile Include="Assets\Scripts\Wave3Scripts\Wave3Movement.cs" />
+     <Compile Include="Assets\Scripts\Wave4Final\BossMovement.cs" />
+     <Compile Include="Assets\Scripts\Wave4Final\BossShootScript.cs" />
+     <Compile Include="Assets\Scripts\Wave4Final\BossTurretMovement.cs" />
+     <Compile Include="Assets\Scripts\Wave4Final\BossTurretScript.cs" />
+     <Compile Include="Assets\Scripts\Wave4Final\BossTurretShoot.cs" />
+     <Compile Include="Assets\Scripts\Wave4Final\VictoryScript.cs" />
+     <Compile Include="Assets\Scripts\Wave4Final\Wave4_TitleScripts.cs" />
+     <Compile Include="Assets\Scripts\Wave4Final\Wave4Complete.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -179,19 +201,19 @@
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -398,19 +420,19 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.12f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>G:/GithubRepos/MultiplayerGalaga/Universal Dominion/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/Hannselthill Camacho/Desktop/MultiplayerGalaga/New UI/Universal Dominion/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

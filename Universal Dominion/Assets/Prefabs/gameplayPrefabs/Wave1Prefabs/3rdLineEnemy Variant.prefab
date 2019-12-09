@@ -84,8 +84,14 @@ PrefabInstance:
       propertyPath: fireDelay
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5563244586208414007, guid: 0fa2823c489240148a132da7f4ef47fb,
+        type: 3}
+      propertyPath: health
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8465679464528727717, guid: 0fa2823c489240148a132da7f4ef47fb, type: 3}
+    - {fileID: 140037331503170414, guid: 0fa2823c489240148a132da7f4ef47fb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0fa2823c489240148a132da7f4ef47fb, type: 3}
 --- !u!1 &3652027374083731435 stripped
 GameObject:

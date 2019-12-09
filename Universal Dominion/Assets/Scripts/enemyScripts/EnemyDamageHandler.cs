@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class EnemyDamageHandler : MonoBehaviour
 {
+    GameObject scoreUITextGO;
+
     public int health = 1;
+    public int scoremultiplier = 1;
     public float invulnerabilityPeriod;
     float invulnerableTimer = 0;
     int correctLayer;
@@ -12,6 +15,7 @@ public class EnemyDamageHandler : MonoBehaviour
     void Start()
     {
         correctLayer = gameObject.layer;
+        scoreUITextGO = GameObject.FindGameObjectWithTag("ScoreTextTag");
     }
 
     void OnTriggerEnter2D()
@@ -37,6 +41,8 @@ public class EnemyDamageHandler : MonoBehaviour
 
     void Die()
     {
+        //add points to score
+        scoreUITextGO.GetComponent<GameScore>().Score += (scoremultiplier * 100);
         Destroy(gameObject);
     }
 }

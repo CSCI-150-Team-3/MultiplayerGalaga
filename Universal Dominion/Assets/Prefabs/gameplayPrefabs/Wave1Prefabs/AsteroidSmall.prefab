@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
+  scoremultiplier: 1
   invulnerabilityPeriod: 0
 --- !u!114 &4450211030303064520
 MonoBehaviour:
@@ -164,5 +165,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eacedd3f24cac44fa804c0c1e63c217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidNum: 0
   smallAsteroid: {fileID: 3241266820862090628}
+  delaycounter: 4.25
