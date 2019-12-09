@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Tutorial_Menu.unity
     guid: 7124d6824f3a1b8449d3a5aca1da57a8
   - enabled: 1
-    path: Assets/Scenes/Menus/Multiplayer_Menu2.unity
-    guid: d45f9a5c6dd45f34aa143068e58ab055
+    path: Assets/Scenes/Menus/Multiplayer_Menu.unity
+    guid: ada3753d6a5e57a40aa95a0d76c43e65
   - enabled: 1
     path: Assets/Scenes/Menus/Settings_Menu.unity
     guid: 6a188b979c766c2439790b4f58a3c346
@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Loading.unity
     guid: d90017dc1465492499d0d1b69444f789
   - enabled: 1
-    path: Assets/Scenes/Menus/Login_Menu2.unity
+    path: Assets/Scenes/Menus/Login_Menu.unity
     guid: b176f3fcf4900604e921e38b7376930e
   - enabled: 1
     path: Assets/Scenes/Menus/CreateAccountPage.unity

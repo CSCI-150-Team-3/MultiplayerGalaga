@@ -66,6 +66,7 @@
      <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
      <Compile Include="Assets\Scripts\databaseScripts\Login.cs" />
      <Compile Include="Assets\Scripts\databaseScripts\Main.cs" />
+     <Compile Include="Assets\Scripts\databaseScripts\RegisterUser.cs" />
      <Compile Include="Assets\Scripts\databaseScripts\Web.cs" />
      <Compile Include="Assets\Scripts\enemyScripts\EnemyDamageHandler.cs" />
      <Compile Include="Assets\Scripts\enemyScripts\EnemyMovement_1.cs" />
