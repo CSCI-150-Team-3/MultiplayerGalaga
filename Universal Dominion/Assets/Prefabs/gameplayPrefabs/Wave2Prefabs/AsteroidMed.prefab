@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 704195126904010883}
   - component: {fileID: 8170475434757799431}
   - component: {fileID: 2925318350860019846}
+  - component: {fileID: 114795403566901434}
   m_Layer: 0
   m_Name: AsteroidMed
   m_TagString: Untagged
@@ -149,7 +150,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3505609598201506646}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75693618141e13f49a2678a1a0fdc565, type: 3}
   m_Name: 
@@ -158,4 +159,19 @@ MonoBehaviour:
   health: 10
   totalhealth: 10
   normalizedhealth: 1
+  invulnerabilityPeriod: 0
+--- !u!114 &114795403566901434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3505609598201506646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec9b9a9096f34640bff0f4a78c52c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  scoremultiplier: 8
   invulnerabilityPeriod: 0

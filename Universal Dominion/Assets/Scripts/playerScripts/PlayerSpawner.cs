@@ -10,6 +10,10 @@ public class PlayerSpawner : MonoBehaviour
     public GameObject playerPrefab;
     GameObject seekShip;
     GameObject playerInstance;
+    //experimental
+    public Hullbar hull;
+    GameObject seekHull;
+    //experimental
 
     float respawnTimer = 2;
 
@@ -21,6 +25,7 @@ public class PlayerSpawner : MonoBehaviour
 
     void Start()
     {
+        hull.GetComponent<Hullbar>();
         TimeCounterGO.GetComponent<TimeCounter>().StartTimeCounter();
     }
 

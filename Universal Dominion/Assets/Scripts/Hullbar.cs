@@ -11,8 +11,6 @@ public class Hullbar : MonoBehaviour
     public void Start() 
     {
         hullbar = transform.Find("Hullbar");
-        //bar.localScale = new Vector3(.4f, 1f);
-        
     }
     public void SetHullSize(float sizeNormalized)
     {
