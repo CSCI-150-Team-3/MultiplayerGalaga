@@ -1629,6 +1629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15ae85af6a065b64ba66426bd0ca3ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMusic: {fileID: 809547943}
+  vol: {fileID: 2003254660}
 --- !u!1 &874530932
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,11 +2518,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: a93c012dd9ef6454fa7d140e976926f7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -9.4
+      value: -9.400024
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: a93c012dd9ef6454fa7d140e976926f7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 16.9
+      value: 16.899994
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: a93c012dd9ef6454fa7d140e976926f7, type: 3}
       propertyPath: m_Color.r
@@ -4151,6 +4153,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BGsound
       objectReference: {fileID: 0}
+    - target: {fileID: 4710945525904270746, guid: a40f48b0af0f60b4dadc014581ec7324,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 28ef46bba41e6494eb6fbd7bfa000a44, type: 3}
     - target: {fileID: 4710945525904270749, guid: a40f48b0af0f60b4dadc014581ec7324,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4206,11 +4213,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4710945525904270746, guid: a40f48b0af0f60b4dadc014581ec7324,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 28ef46bba41e6494eb6fbd7bfa000a44, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a40f48b0af0f60b4dadc014581ec7324, type: 3}
 --- !u!1001 &1866822685
@@ -4934,7 +4936,7 @@ PrefabInstance:
     - target: {fileID: 11400000, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 198241108}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Con_sound

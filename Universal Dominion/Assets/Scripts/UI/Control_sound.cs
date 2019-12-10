@@ -8,7 +8,7 @@ public class Control_sound : MonoBehaviour
     public Slider sd;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
