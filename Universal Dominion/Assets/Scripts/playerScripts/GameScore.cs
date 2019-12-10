@@ -18,7 +18,7 @@ public class GameScore : MonoBehaviour
             return this.score;
         }
         
-            set 
+        set 
         {
             this.score = value;
             UpdateScoreTextUI();

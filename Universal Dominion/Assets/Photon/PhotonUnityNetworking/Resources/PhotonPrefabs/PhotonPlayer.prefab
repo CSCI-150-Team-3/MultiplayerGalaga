@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hullbar: {fileID: 0}
-  health: 1
+  health: 3
   totalhealth: 3
   normalizedhealth: 1
   invulnerabilityPeriod: 0

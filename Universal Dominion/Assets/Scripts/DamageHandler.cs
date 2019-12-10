@@ -23,7 +23,7 @@ public class DamageHandler : MonoBehaviour
     {
         health--;
         normalizedhealth = health / totalhealth;
-       hullbar.SetHullSize(normalizedhealth);
+        hullbar.SetHullSize(normalizedhealth);
         invulnerableTimer = invulnerabilityPeriod;
         gameObject.layer = 10;
     }

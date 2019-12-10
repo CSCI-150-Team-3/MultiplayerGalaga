@@ -85,6 +85,10 @@
      <Compile Include="Assets\Scripts\networkingScripts\DelayStartWaitingRoomController.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\GameSetupController.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\NetworkController.cs" />
+     <Compile Include="Assets\Scripts\networkingScripts\NewNetworkLobbyScripts\CreateRoom.cs" />
+     <Compile Include="Assets\Scripts\networkingScripts\NewNetworkLobbyScripts\DDOL.cs" />
+     <Compile Include="Assets\Scripts\networkingScripts\NewNetworkLobbyScripts\LobbyNetwork.cs" />
+     <Compile Include="Assets\Scripts\networkingScripts\NewNetworkLobbyScripts\PlayerNetwork.cs" />
      <Compile Include="Assets\Scripts\networkingScripts\PlayerMovementNet.cs" />
      <Compile Include="Assets\Scripts\playerScripts\GameScore.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerDamageHandler.cs" />

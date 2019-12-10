@@ -18,9 +18,5 @@ public class Hullbar : MonoBehaviour
     {
         hullbar.localScale = new Vector3(sizeNormalized, 1f);
     } 
-    // Update is called once per frame
-    //void Update()
-   // {
-        
-   // }
+
 }
