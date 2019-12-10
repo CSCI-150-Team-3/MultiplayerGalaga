@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5158637694159587053}
   - component: {fileID: 7982662592361311393}
-  - component: {fileID: 998217406123797449}
   - component: {fileID: 185344376662116077}
   - component: {fileID: 6485446197319010014}
-  - component: {fileID: 7858855290064769951}
+  - component: {fileID: 5544950193695078174}
+  - component: {fileID: 6375003848310166740}
   m_Layer: 11
   m_Name: Player_Projectile
   m_TagString: Untagged
@@ -83,20 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &998217406123797449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7108717463349675834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcfde0bfa32e6d4cb75cc2855074eb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxSpeed: 7
-  timer: 3
 --- !u!61 &185344376662116077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,7 +130,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &7858855290064769951
+--- !u!114 &5544950193695078174
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,5 +142,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75693618141e13f49a2678a1a0fdc565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hullbar: {fileID: 0}
   health: 1
+  totalhealth: 3
+  normalizedhealth: 1
   invulnerabilityPeriod: 0
+--- !u!114 &6375003848310166740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7108717463349675834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcfde0bfa32e6d4cb75cc2855074eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 10
+  timer: 0.85
