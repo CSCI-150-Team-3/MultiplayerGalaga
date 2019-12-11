@@ -1,0 +1,22 @@
+How to run XAMPP local web hosting service for MariaDB(MySQL) Database
+
+1.) First have XAMPP Downloaded
+
+2.) Launch App and Click the Start button to start Apache. To see if XAMPP is working type in localhost in the URL address bar of your web browser which will redirect you to localhost/dashboard,
+This indicates that the server is up and runnning
+
+3.) Start MySQL, clicking on the ADMIN button for the MySQL service will redirect you to
+localhost/phpmyadmin on your web browser which will display your database.
+
+4.) On the leftside there will be tabs that show the databases available, in the database folder there is a file called
+unitybackend.sql which will create a database when imported into phpMyAdmin you can do this by clicking on the Import
+tab located at the top middle section of phpMyAdmin then you can Choose a File and seelct the sql file and import it.
+Once imported you will see on the left tabs a database called unitybackend, clicking on this will display a table called users,
+which will then show all the available users on the database.
+
+5.) Once the table is imported and running make sure you have the apache and mySQL service running to see affected changes
+in the Universal Dominion Unity game application. Such as when Creating a new User will update a users username, password and email
+into the database, which you can see when clicking the submit button on said page.
+
+
+  
